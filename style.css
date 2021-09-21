@@ -1,0 +1,112 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #181818;
+
+    color: white;
+    height: 60px;
+}
+
+.second-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F6F6F6;
+
+    height: 60px;
+}
+
+
+.fundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    position: relative;
+    
+}
+
+.fundo::before {
+    content: '';
+    background: #181818;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;   
+    position: absolute;
+}
+
+.fundo img {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    right: 60em;
+
+    color: white;
+
+    padding-left: 50px;
+    
+}
+
+.logo h1 {
+    font-size: 32px;
+}
+
+.logo p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.destaques {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 4em;
+}
+
+.destaques h1 {
+    padding-bottom: 0.5em;
+    font-size: 32px;
+}
+
+.destaques p {
+    font-size: 18px;
+}
+
+
+.tenis {
+    background-color: #F6F6F6;
+    width: 100%;
+    
+}
+
+.caixas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.caixa {
+    width: 300px;
+    height: 302px;
+    background: #EBE9EA;
+    margin: 10px 10px 20px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
